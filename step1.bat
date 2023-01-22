@@ -1,1 +1,2 @@
-fontforge -script source\step1.py "source\\glyphs.pbm" "source\\glyphs.csv" "source\\temp\\temp.sfd"
+fontforge -script source\step1.py normal "source\\glyphs.pbm" "source\\glyphs.csv" "source\\temp\\temp main.sfd"
+fontforge -script source\step1.py halfstep "source\\glyphs halfstep.pbm" "source\\glyphs halfstep.csv" "source\\temp\\temp halfstep.sfd"

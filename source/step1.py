@@ -31,10 +31,13 @@ def getPbmInt(pbm_file):
 
 def main():
 
+	halfstep = sys.argv[1] == "halfstep"
+	dot_size_horizontal = DOT_SIZE // 2 if halfstep else DOT_SIZE
+
 	# read source image (PBM)
-	with open(sys.argv[1]) as pbm_file:
+	with open(sys.argv[2]) as pbm_file:
 		if pbm_file.read(2) != "P1":
-			raise Exception(f"Source image {sys.argv[0]} is incorrect format or corrupted")
+			raise Exception(f"Source image {sys.argv[2]} is incorrect format or corrupted")
 		image_width = getPbmInt(pbm_file)
 		image_height = getPbmInt(pbm_file)
 		source_image = []
@@ -44,7 +47,7 @@ def main():
 				source_image[-1].append(getPbmInt(pbm_file))
 	
 	# read glyph map (CSV)
-	with open(sys.argv[2]) as csv_file:
+	with open(sys.argv[3]) as csv_file:
 		glyph_map = []
 		for line in csv_file:
 			glyph_map.append(line.strip().split(","))
@@ -79,13 +82,13 @@ def main():
 				for y in range(glyph_height):
 					for x in range(glyph_width):
 						if source_image[j*glyph_height + y][i*glyph_width + x]:
-							font[name].addReference("dot", (1, 0, 0, 1, x * DOT_SIZE, (glyph_height - y - HEADROOM) * DOT_SIZE))
+							font[name].addReference("dot", (1, 0, 0, 1, x * dot_size_horizontal, (glyph_height - y - HEADROOM) * DOT_SIZE))
 
 				font[name].left_side_bearing = SIDE_BEARING
 				font[name].right_side_bearing = SIDE_BEARING - 1
 
 	# finished step 1!
-	font.save(sys.argv[3])
+	font.save(sys.argv[4])
 
 
 if __name__ == "__main__":
