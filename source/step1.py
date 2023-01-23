@@ -14,7 +14,7 @@ import fontforge
 EM_SIZE = 1000
 HEADROOM = 3 # no. of dots above cap height in source image
 DOT_SIZE = 100
-SIDE_BEARING = DOT_SIZE // 2
+SIDE_BEARING = int(DOT_SIZE / 2)
 
 def getPbmInt(pbm_file):
 	result = ""
@@ -31,7 +31,9 @@ def getPbmInt(pbm_file):
 
 def main():
 
+	advance_width = {"normal": 900, "halfstep": 500, "mono": 600}[sys.argv[1]]
 	halfstep = sys.argv[1] == "halfstep"
+	mono = sys.argv[1] == "mono"
 	dot_size_horizontal = DOT_SIZE // 2 if halfstep else DOT_SIZE
 
 	# read source image (PBM)
@@ -78,14 +80,19 @@ def main():
 			name = glyph_map[j][i]
 			if len(name) > 0:
 				font.createChar(fontforge.unicodeFromName(name), name)
+				font[name].width = advance_width
 			
 				for y in range(glyph_height):
 					for x in range(glyph_width):
 						if source_image[j*glyph_height + y][i*glyph_width + x]:
 							font[name].addReference("dot", (1, 0, 0, 1, x * dot_size_horizontal, (glyph_height - y - HEADROOM) * DOT_SIZE))
 
-				font[name].left_side_bearing = SIDE_BEARING
-				font[name].right_side_bearing = SIDE_BEARING - 1
+				if not halfstep and not mono:
+					font[name].left_side_bearing = SIDE_BEARING
+					font[name].right_side_bearing = SIDE_BEARING - 1
+				else:
+					font[name].left_side_bearing = int(font[name].left_side_bearing + SIDE_BEARING)
+					font[name].right_side_bearing = int(font[name].right_side_bearing - SIDE_BEARING)
 
 	# finished step 1!
 	font.save(sys.argv[4])
