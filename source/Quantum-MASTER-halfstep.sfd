@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1674567672
-ModificationTime: 1674650477
+ModificationTime: 1674651028
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -66,11 +66,11 @@ Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 0
- 0 101 l 0
- 101 101 l 0
- 101 0 l 0
- 0 0 l 0
+0 0 m 4
+ 0 101 l 4
+ 101 101 l 4
+ 101 0 l 4
+ 0 0 l 4
 EndSplineSet
 EndChar
 
@@ -2036,7 +2036,7 @@ EndChar
 StartChar: paragraph
 Encoding: 182 182 104
 Width: 500
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 350 -200 2
@@ -3481,7 +3481,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 164 58998 N 1 0 0 1 0 0 2
+Refer: 164 58998 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10466
@@ -3490,7 +3490,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 158 58992 N 1 0 0 1 0 0 2
+Refer: 158 58992 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10467
@@ -3499,7 +3499,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 160 58994 N 1 0 0 1 0 0 2
+Refer: 160 58994 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10468
@@ -3508,7 +3508,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 162 58996 N 1 0 0 1 0 0 2
+Refer: 162 58996 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10469
@@ -3517,7 +3517,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 168 59002 N 1 0 0 1 0 0 2
+Refer: 168 59002 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1046A
@@ -3526,7 +3526,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 166 59000 N 1 0 0 1 0 0 2
+Refer: 166 59000 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1046B
@@ -3535,7 +3535,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 87 118 N 1 0 0 1 0 0 2
+Refer: 87 118 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1046C
@@ -3576,7 +3576,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 151 58984 N 1 0 0 1 0 0 2
+Refer: 151 58984 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1046F
@@ -3585,7 +3585,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 165 58999 N 1 0 0 1 0 0 2
+Refer: 165 58999 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10470
