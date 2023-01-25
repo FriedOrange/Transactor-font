@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1674633446
-ModificationTime: 1674636377
+ModificationTime: 1674636836
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -48,7 +48,6 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "" "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
 Encoding: UnicodeFull
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -57,7 +56,7 @@ FitToEm: 0
 WinInfo: 0 16 14
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114113 223
+BeginChars: 1114114 224
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -4094,6 +4093,26 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 1 32 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: .notdef
+Encoding: 1114113 -1 223
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+470 620 m 1
+ 130 620 l 1
+ 130 80 l 1
+ 470 80 l 1
+ 470 620 l 1
+50 700 m 1
+ 550 700 l 1
+ 550 0 l 1
+ 50 0 l 1
+ 50 700 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
