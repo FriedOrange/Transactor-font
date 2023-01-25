@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1674633446
-ModificationTime: 1674636836
+ModificationTime: 1674640437
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -101,12 +101,8 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 50 500 2
-Refer: 0 -1 N 1 0 0 1 250 600 2
-Refer: 0 -1 N 1 0 0 1 50 600 2
+Refer: 8 39 N 1 0 0 1 200 0 2
+Refer: 8 39 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: numbersign
@@ -564,8 +560,8 @@ Width: 200
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 15 46 S 1 0 0 1 0 400 2
+Refer: 15 46 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: semicolon
@@ -574,10 +570,8 @@ Width: 300
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 -100 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 13 44 N 1 0 0 1 0 0 3
+Refer: 15 46 N 1 0 0 1 100 400 2
 EndChar
 
 StartChar: less
@@ -599,16 +593,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 450 400 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 113 8211 N 1 0 0 1 0 100 2
+Refer: 113 8211 N 1 0 0 1 0 -100 3
 EndChar
 
 StartChar: greater
@@ -1338,16 +1324,16 @@ EndChar
 
 StartChar: underscore
 Encoding: 95 95 64
-Width: 700
+Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 550 -100 2
-Refer: 0 -1 N 1 0 0 1 450 -100 2
-Refer: 0 -1 N 1 0 0 1 350 -100 2
-Refer: 0 -1 N 1 0 0 1 250 -100 2
-Refer: 0 -1 N 1 0 0 1 150 -100 2
-Refer: 0 -1 N 1 0 0 1 50 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
 EndChar
 
 StartChar: grave
@@ -2028,12 +2014,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 450 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 125 8249 N 1 0 0 1 300 0 2
+Refer: 125 8249 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: logicalnot
@@ -2073,20 +2055,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 450 400 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 250 600 2
+Refer: 113 8211 N 1 0 0 1 0 -300 2
+Refer: 12 43 N 1 0 0 1 0 100 3
 EndChar
 
 StartChar: mu
@@ -2144,7 +2114,7 @@ Width: 200
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 15 46 N 1 0 0 1 0 300 3
 EndChar
 
 StartChar: guillemotright
@@ -2153,12 +2123,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 126 8250 N 1 0 0 1 300 0 2
+Refer: 126 8250 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: onequarter
@@ -2252,13 +2218,9 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
+Refer: 15 46 N 1 0 0 1 200 100 2
+Refer: 15 46 N 1 0 0 1 200 500 2
+Refer: 113 8211 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: endash
@@ -2276,16 +2238,11 @@ EndChar
 
 StartChar: emdash
 Encoding: 8212 8212 114
-Width: 700
+Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 550 300 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 64 95 N 1 0 0 1 0 400 3
 EndChar
 
 StartChar: quoteleft
@@ -2305,9 +2262,7 @@ Width: 300
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 13 44 N 1 0 0 1 0 500 3
 EndChar
 
 StartChar: quotedblleft
@@ -2316,12 +2271,8 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 50 500 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
-Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 115 8216 N 1 0 0 1 200 0 2
+Refer: 115 8216 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: quotedblright
@@ -2330,12 +2281,8 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 350 500 2
-Refer: 0 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
-Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 13 44 N 1 0 0 1 200 500 2
+Refer: 13 44 N 1 0 0 1 0 500 2
 EndChar
 
 StartChar: dagger
@@ -2406,9 +2353,9 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 15 46 N 1 0 0 1 400 0 2
+Refer: 15 46 N 1 0 0 1 200 0 2
+Refer: 15 46 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: minute
@@ -2429,14 +2376,8 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 350 500 2
-Refer: 0 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
-Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 123 8242 S 1 0 0 1 200 0 2
+Refer: 123 8242 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: guilsinglleft
@@ -2527,13 +2468,7 @@ Width: 200
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 50 500 2
-Refer: 0 -1 N 1 0 0 1 50 600 2
+Refer: 77 108 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: unie653
@@ -2707,14 +2642,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 250 600 2
+Refer: 135 58967 N 1 0 0 1 0 200 3
 EndChar
 
 StartChar: unie65d
@@ -2794,13 +2722,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 -200 2
-Refer: 0 -1 N 1 0 0 1 50 -100 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 16 47 N 1 0 0 1 0 -200 3
 EndChar
 
 StartChar: unie662
@@ -3222,16 +3144,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 80 111 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: unie67d
@@ -3364,15 +3277,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 50 500 2
-Refer: 0 -1 N 1 0 0 1 250 600 2
-Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 138 58970 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10456
@@ -3381,14 +3286,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 250 600 2
+Refer: 135 58967 N 1 0 0 1 0 200 3
 EndChar
 
 StartChar: u10457
@@ -3397,15 +3295,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
+Refer: 142 58974 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10458
@@ -3414,13 +3304,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 50 500 2
-Refer: 0 -1 N 1 0 0 1 50 600 2
+Refer: 61 92 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10459
@@ -3429,20 +3313,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 350 500 2
-Refer: 0 -1 N 1 0 0 1 50 500 2
-Refer: 0 -1 N 1 0 0 1 250 600 2
-Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 148 58980 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1045A
@@ -3467,15 +3338,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 -200 2
-Refer: 0 -1 N 1 0 0 1 150 -100 2
-Refer: 0 -1 N 1 0 0 1 50 -100 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 131 58963 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1045C
@@ -3501,14 +3364,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 -200 2
-Refer: 0 -1 N 1 0 0 1 50 -100 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 146 58978 S 1 0 0 1 0 -200 3
 EndChar
 
 StartChar: u1045E
@@ -3537,15 +3393,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 -200 2
-Refer: 0 -1 N 1 0 0 1 150 -200 2
-Refer: 0 -1 N 1 0 0 1 50 -100 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 139 58971 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10460
@@ -3570,15 +3418,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 -200 2
-Refer: 0 -1 N 1 0 0 1 150 -100 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 143 58975 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10462
@@ -3587,13 +3427,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 -200 2
-Refer: 0 -1 N 1 0 0 1 50 -100 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 16 47 N 1 0 0 1 0 -200 3
 EndChar
 
 StartChar: u10463
@@ -3639,11 +3473,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 165 58998 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10466
@@ -3652,11 +3482,7 @@ Width: 200
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 159 58992 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10467
@@ -3665,12 +3491,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 161 58994 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10468
@@ -3679,12 +3500,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 163 58996 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10469
@@ -3693,12 +3509,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 169 59002 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1046A
@@ -3707,12 +3518,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 167 59000 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1046B
@@ -3721,15 +3527,7 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 450 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 87 118 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1046C
@@ -3769,13 +3567,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 152 58984 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u1046F
@@ -3784,11 +3576,7 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 166 58999 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10470
@@ -3862,16 +3650,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 80 111 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: u10475
@@ -4089,7 +3868,7 @@ EndChar
 StartChar: uni00A0
 Encoding: 160 160 222
 Width: 400
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 1 32 N 1 0 0 1 0 0 3
@@ -4098,7 +3877,7 @@ EndChar
 StartChar: .notdef
 Encoding: 1114113 -1 223
 Width: 600
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
