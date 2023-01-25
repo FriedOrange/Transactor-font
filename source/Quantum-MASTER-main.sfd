@@ -1,14 +1,14 @@
 SplineFontDB: 3.2
-FontName: Untitled1
-FullName: Untitled1
-FamilyName: Untitled1
+FontName: Quantum
+FullName: Quantum
+FamilyName: Quantum
 Weight: Regular
-Copyright: Copyright (c) 2023, neilb
+Copyright: Copyright 2023 Brad Neil
 UComments: "2023-1-25: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+Version: 1.000
 ItalicAngle: 0
-UnderlinePosition: -100
-UnderlineWidth: 50
+UnderlinePosition: -150
+UnderlineWidth: 100
 Ascent: 800
 Descent: 200
 InvalidEm: 0
@@ -16,33 +16,47 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 305 966524307 25207]
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1674633446
-ModificationTime: 1674635461
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
+ModificationTime: 1674636377
+PfmFamily: 81
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+OS2TypoAscent: 1000
+OS2TypoAOffset: 0
+OS2TypoDescent: -300
+OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2WinAscent: 1000
+OS2WinAOffset: 0
+OS2WinDescent: 200
+OS2WinDOffset: 0
+HheadAscent: 1000
+HheadAOffset: 0
+HheadDescent: -300
+HheadDOffset: 0
+OS2CapHeight: 700
+OS2XHeight: 500
+OS2FamilyClass: 2058
 OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
 DEI: 91125
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "" "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 16 14
+BeginPrivate: 0
+EndPrivate
 BeginChars: 1114113 223
 
 StartChar: dot
@@ -1343,8 +1357,8 @@ Width: 300
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 150 600 2
-Refer: 0 -1 N 1 0 0 1 50 700 2
+Refer: 0 -1 N 1 0 0 1 150 500 2
+Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
 StartChar: a
