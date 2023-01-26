@@ -19,6 +19,7 @@ SCREEN_DOT_FACTOR = 0.86
 PRINT_DOT_RADIUS = 48.0
 MAIN_SOURCE = "source\\Quantum-MASTER-main.sfd"
 HALFSTEP_SOURCE = "source\\Quantum-MASTER-halfstep.sfd"
+BOLD_TEMP = "source\\temp\\temp bold.sfd"
 UNLINK_LIST = []
 
 def add_names(font, style, suffix=""):
@@ -30,6 +31,19 @@ def add_names(font, style, suffix=""):
 	# font.appendSFNTName("English (US)", 21, font.familyname)
 	# font.appendSFNTName("English (US)", 22, "Regular")
 
+def get_pattern(font, glyph):
+	matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)] # full dots
+	skip = False
+	for ref, trans in font[glyph].references:
+		if ref != "dot":
+			skip = True
+			break # we are only interested in glyphs that directly reference the "dot" glyph
+		x = int(trans[4]) # coordinates of glyph reference
+		y = int(trans[5])
+		x //= DOT_SIZE
+		y = y // DOT_SIZE + DESCENT_DOTS
+		matrix[x][y] = True
+	return matrix, skip
 
 def make_regular(source):
 	font = fontforge.open(source)
@@ -93,19 +107,7 @@ def make_video(source):
 	for glyph in font:
 
 		# determine where the dots are in each glyph
-		matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)] # full dots
-		matrix2 = [[0]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)] # occupied quadrants
-		skip = False
-		for ref, trans in font[glyph].references:
-			if ref != "dot":
-				skip = True
-				break # we are only interested in glyphs that directly reference the "dot" glyph
-			x = int(trans[4]) # coordinates of glyph reference
-			y = int(trans[5])
-			x //= DOT_SIZE
-			y = y // DOT_SIZE + DESCENT_DOTS
-			matrix[x][y] = True
-			matrix2[x][y] = 15
+		matrix, skip = get_pattern(font, glyph)
 		if skip:
 			continue
 
@@ -115,13 +117,9 @@ def make_video(source):
 				if matrix[x][y] and matrix[x + 1][y + 1] and not (matrix[x + 1][y] or matrix[x][y + 1]):
 					font[glyph].addReference("halfdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
 					font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
-					matrix2[x][y + 1] = 8 # bottom right quarter-dot
-					matrix2[x + 1][y] = 1 # top left
 				if matrix[x][y + 1] and matrix[x + 1][y] and not (matrix[x][y] or matrix[x + 1][y + 1]):
 					font[glyph].addReference("halfdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
 					font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
-					matrix2[x][y] = 2 # top right
-					matrix2[x + 1][y + 1] = 4 # bottom left
 
 	# interpolation done, now finish it off the same as Regular style
 	font["dot"].unlinkThisGlyph()
@@ -167,18 +165,9 @@ def make_raster(source):
 	font["dot2"].width = 100
 
 	for glyph in font:
+
 		# determine where the dots are in each glyph
-		matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)]
-		skip = False
-		for ref, trans in font[glyph].references:
-			if ref != "dot":
-				skip = True
-				break # we are only interested in glyphs that directly reference the "dot" glyph
-			x = int(trans[4]) # coordinates of glyph reference
-			y = int(trans[5])
-			x //= DOT_SIZE
-			y = y // DOT_SIZE + DESCENT_DOTS
-			matrix[x][y] = True
+		matrix, skip = get_pattern(font, glyph)
 		if skip:
 			continue
 
@@ -203,6 +192,26 @@ def make_raster(source):
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.save("source\\temp\\QuantumRaster-Regular.sfd")
 
+def make_bold(source):
+	font = fontforge.open(source)
+
+	for glyph in font:
+	
+		# determine where the dots are in each glyph
+		matrix, skip = get_pattern(font, glyph)
+		if skip:
+			continue
+
+		for j in range(GLYPH_HEIGHT):
+			for i in range(GLYPH_WIDTH - 1):
+				if matrix[i][j] and not matrix[i + 1][j]:
+					font[glyph].addReference("dot", (1, 0, 0, 1, (i + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
+
+		if font[glyph].right_side_bearing <= 0:
+			font[glyph].right_side_bearing = LEFT_SIDE_BEARING - 1
+
+	font.save(BOLD_TEMP)
+
 def main():
 	make_regular(MAIN_SOURCE)
 	make_print(MAIN_SOURCE)
@@ -210,6 +219,7 @@ def main():
 	make_screen(MAIN_SOURCE)
 	make_video(MAIN_SOURCE)
 	make_print(HALFSTEP_SOURCE, "#2")
+	make_bold(MAIN_SOURCE)
 
 if __name__ == "__main__":
 	main()
