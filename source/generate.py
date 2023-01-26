@@ -72,7 +72,7 @@ def make_print(source, name_suffix=""):
 	font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-	font.save("source\\temp\\QuantumPrint-Regular.sfd")
+	font.save("source\\temp\\QuantumPrint" + name_suffix + "-Regular.sfd")
 
 def make_video(source):
 	font = fontforge.open(source)
@@ -209,7 +209,7 @@ def main():
 	make_raster(MAIN_SOURCE)
 	make_screen(MAIN_SOURCE)
 	make_video(MAIN_SOURCE)
-	make_print(HALFSTEP_SOURCE, " #2")
+	make_print(HALFSTEP_SOURCE, "#2")
 
 if __name__ == "__main__":
 	main()
