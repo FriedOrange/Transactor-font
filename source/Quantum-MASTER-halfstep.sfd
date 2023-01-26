@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: Quantum#2
-FullName: Quantum #2
-FamilyName: Quantum #2
+FontName: Quantum
+FullName: Quantum
+FamilyName: Quantum
 Weight: Regular
 Copyright: Copyright 2023 Brad Neil
 UComments: "2023-1-25: Created with FontForge (http://fontforge.org)"
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1674567672
-ModificationTime: 1674651028
+ModificationTime: 1674715968
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 16 14
+WinInfo: 64 16 14
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114114 224
