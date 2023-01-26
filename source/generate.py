@@ -17,8 +17,8 @@ DESCENT_DOTS = 2
 LEFT_SIDE_BEARING = 50
 SCREEN_DOT_FACTOR = 0.86
 PRINT_DOT_RADIUS = 48.0
-MAIN_SOURCE = "Quantum-MASTER-main.sfd"
-HALFSTEP_SOURCE = "Quantum-MASTER-halfstep.sfd"
+MAIN_SOURCE = "source\\Quantum-MASTER-main.sfd"
+HALFSTEP_SOURCE = "source\\Quantum-MASTER-halfstep.sfd"
 UNLINK_LIST = []
 
 def add_names(font, style, suffix=""):
@@ -43,7 +43,7 @@ def make_regular(source):
 	font.simplify()
 	font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
 	font.fontname = font.fontname + "-Regular"
-	font.save("temp\\MatrixSans-Regular.sfd")
+	font.save("source\\temp\\Quantum-Regular.sfd")
 
 def make_screen(source):
 	font = fontforge.open(source)
@@ -56,9 +56,9 @@ def make_screen(source):
 	font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 	font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-	font.save("temp\\MatrixSansScreen-Regular.sfd")
+	font.save("source\\temp\\QuantumScreen-Regular.sfd")
 
-def make_print(source, name_suffix=None):
+def make_print(source, name_suffix=""):
 	font = fontforge.open(source)
 	font["dot"].clear()
 	circle = fontforge.unitShape(0) # creates a unit circle
@@ -72,7 +72,7 @@ def make_print(source, name_suffix=None):
 	font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-	font.save("temp\\MatrixSansPrint-Regular.sfd")
+	font.save("source\\temp\\QuantumPrint-Regular.sfd")
 
 def make_video(source):
 	font = fontforge.open(source)
@@ -129,13 +129,6 @@ def make_video(source):
 	font["dot"].clear()
 	font["halfdot"].clear()
 
-	# hack to preserve the counter of the ring diacritic
-	font["ring"].unlinkRef()
-	font["ring"].removeOverlap()
-	font["ring"].addReference("period", (1, 0, 0, 1, 100, 600))
-	font["ring"].unlinkRef()
-	font["ring"].correctDirection()
-
 	for glyph in UNLINK_LIST:
 		font[glyph].unlinkRef() # prevent rendering issues with just-touching components
 	font.selection.all()
@@ -145,7 +138,7 @@ def make_video(source):
 	font.round(0.1)
 
 	add_names(font, "Video")
-	font.save("temp\\MatrixSansVideo-Regular.sfd")
+	font.save("source\\temp\\QuantumVideo-Regular.sfd")
 
 def make_raster(source):
 	font = fontforge.open(source)
@@ -208,7 +201,7 @@ def make_raster(source):
 	# font.uwidth = 80
 	font.os2_strikeysize = 80
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-	font.save("temp\\MatrixSansRaster-Regular.sfd")
+	font.save("source\\temp\\QuantumRaster-Regular.sfd")
 
 def main():
 	make_regular(MAIN_SOURCE)
