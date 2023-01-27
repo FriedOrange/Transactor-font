@@ -24,10 +24,10 @@ EXTENDED_TEMP = "source\\temp\\temp extended.sfd"
 UNLINK_LIST = []
 
 def add_names(font, style, suffix=""):
-	font.fontname = font.fontname + style + suffix + "-Regular"
+	font.fontname = font.fontname + style + suffix + f"-{font.weight}"
 	# font.appendSFNTName("English (US)", 16, font.familyname)
 	font.familyname = font.familyname + " " + style + (" " + suffix if suffix else "")
-	font.fullname = font.familyname
+	font.fullname = font.familyname + (" " + font.weight if font.weight != "Regular" else "")
 	# font.appendSFNTName("English (US)", 17, style)
 	# font.appendSFNTName("English (US)", 21, font.familyname)
 	# font.appendSFNTName("English (US)", 22, "Regular")
@@ -57,8 +57,8 @@ def make_regular(source):
 	font.round()
 	font.simplify()
 	font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
-	font.fontname = font.fontname + "-Regular"
-	font.save("source\\temp\\Quantum-Regular.sfd")
+	font.fontname = font.fontname + f"-{font.weight}"
+	font.save(f"source\\temp\\Quantum-{font.weight}.sfd")
 
 def make_screen(source):
 	font = fontforge.open(source)
@@ -71,7 +71,7 @@ def make_screen(source):
 	font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 	font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-	font.save("source\\temp\\QuantumScreen-Regular.sfd")
+	font.save(f"source\\temp\\QuantumScreen-{font.weight}.sfd")
 
 def make_print(source, name_suffix=""):
 	font = fontforge.open(source)
@@ -87,7 +87,7 @@ def make_print(source, name_suffix=""):
 	font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-	font.save("source\\temp\\QuantumPrint" + name_suffix + "-Regular.sfd")
+	font.save("source\\temp\\QuantumPrint" + name_suffix + f"-{font.weight}.sfd")
 
 def make_video(source):
 	font = fontforge.open(source)
@@ -137,7 +137,7 @@ def make_video(source):
 	font.round(0.1)
 
 	add_names(font, "Video")
-	font.save("source\\temp\\QuantumVideo-Regular.sfd")
+	font.save(f"source\\temp\\QuantumVideo-{font.weight}.sfd")
 
 def make_raster(source):
 	font = fontforge.open(source)
@@ -191,7 +191,7 @@ def make_raster(source):
 	font.uwidth = 80
 	font.os2_strikeysize = 80
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-	font.save("source\\temp\\QuantumRaster-Regular.sfd")
+	font.save(f"source\\temp\\QuantumRaster-{font.weight}.sfd")
 
 def make_bold(source):
 	font = fontforge.open(source)
@@ -211,6 +211,7 @@ def make_bold(source):
 		if font[glyph].right_side_bearing <= 0:
 			font[glyph].right_side_bearing = LEFT_SIDE_BEARING - 1
 
+	font.weight = "Bold"
 	font.save(BOLD_TEMP)
 
 def make_extended(source):
@@ -243,6 +244,7 @@ def make_extended(source):
 					font[glyph].addReference("dot", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 					font[glyph].addReference("dot", (1, 0, 0, 1, (i + 1) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 
+	font.weight = "Bold"
 	font.save(EXTENDED_TEMP)
 
 def main():
@@ -252,8 +254,14 @@ def main():
 	make_screen(MAIN_SOURCE)
 	make_video(MAIN_SOURCE)
 	make_print(HALFSTEP_SOURCE, "#2")
-	make_bold(MAIN_SOURCE)
 	make_extended(HALFSTEP_SOURCE)
+	make_print(EXTENDED_TEMP, "#2")
+	make_bold(MAIN_SOURCE)
+	make_regular(BOLD_TEMP)
+	make_print(BOLD_TEMP)
+	make_raster(BOLD_TEMP)
+	make_screen(BOLD_TEMP)
+	make_video(BOLD_TEMP)
 
 if __name__ == "__main__":
 	main()
