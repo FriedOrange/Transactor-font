@@ -1,0 +1,15 @@
+sources:
+  - Quantum-Regular.ufo
+  - QuantumPrint-Regular.ufo
+  - QuantumRaster-Regular.ufo
+  - QuantumScreen-Regular.ufo
+  - QuantumVideo-Regular.ufo
+  - QuantumPrint#2-Regular.ufo
+  - Quantum-Bold.ufo
+  - QuantumPrint-Bold.ufo
+  - QuantumRaster-Bold.ufo
+  - QuantumScreen-Bold.ufo
+  - QuantumPrint#2-Bold.ufo
+familyName: "Quantum"
+buildOTF: false
+buildVariable: false
