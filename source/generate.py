@@ -188,7 +188,7 @@ def make_raster(source):
 	font.removeOverlap()
 	font.simplify()
 	add_names(font, "Raster")
-	# font.uwidth = 80
+	font.uwidth = 80
 	font.os2_strikeysize = 80
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.save("source\\temp\\QuantumRaster-Regular.sfd")
