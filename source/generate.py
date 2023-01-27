@@ -20,6 +20,7 @@ PRINT_DOT_RADIUS = 48.0
 MAIN_SOURCE = "source\\Quantum-MASTER-main.sfd"
 HALFSTEP_SOURCE = "source\\Quantum-MASTER-halfstep.sfd"
 BOLD_TEMP = "source\\temp\\temp bold.sfd"
+EXTENDED_TEMP = "source\\temp\\temp extended.sfd"
 UNLINK_LIST = []
 
 def add_names(font, style, suffix=""):
@@ -212,6 +213,38 @@ def make_bold(source):
 
 	font.save(BOLD_TEMP)
 
+def make_extended(source):
+	font = fontforge.open(source)
+
+	for glyph in font:
+
+		# determine where the dots are in each glyph
+		matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH*2)] # full dots
+		skip = False
+		for ref, trans in font[glyph].references:
+			if ref != "dot":
+				skip = True
+				break # we are only interested in glyphs that directly reference the "dot" glyph
+			x = int(trans[4]) # coordinates of glyph reference
+			y = int(trans[5])
+			x //= DOT_SIZE // 2
+			y = y // DOT_SIZE + DESCENT_DOTS
+			matrix[x][y] = True
+		if skip or not font[glyph].references:
+			continue
+
+		width = font[glyph].width
+		font[glyph].clear()
+		font[glyph].width = width * 2
+
+		for j in range(GLYPH_HEIGHT):
+			for i in range(GLYPH_WIDTH - 1):
+				if matrix[i][j]:
+					font[glyph].addReference("dot", (1, 0, 0, 1, i * DOT_SIZE // 2, (j - DESCENT_DOTS) * DOT_SIZE))
+					font[glyph].addReference("dot", (1, 0, 0, 1, (i + 1) * DOT_SIZE // 2, (j - DESCENT_DOTS) * DOT_SIZE))
+
+	font.save(EXTENDED_TEMP)
+
 def main():
 	make_regular(MAIN_SOURCE)
 	make_print(MAIN_SOURCE)
@@ -220,6 +253,7 @@ def main():
 	make_video(MAIN_SOURCE)
 	make_print(HALFSTEP_SOURCE, "#2")
 	make_bold(MAIN_SOURCE)
+	make_extended(HALFSTEP_SOURCE)
 
 if __name__ == "__main__":
 	main()
