@@ -13,3 +13,4 @@ sources:
 familyName: "Quantum"
 buildOTF: false
 buildVariable: false
+autohintTTF: false
