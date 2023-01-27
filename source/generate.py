@@ -238,10 +238,10 @@ def make_extended(source):
 		font[glyph].width = width * 2
 
 		for j in range(GLYPH_HEIGHT):
-			for i in range(GLYPH_WIDTH - 1):
+			for i in range(GLYPH_WIDTH * 2):
 				if matrix[i][j]:
-					font[glyph].addReference("dot", (1, 0, 0, 1, i * DOT_SIZE // 2, (j - DESCENT_DOTS) * DOT_SIZE))
-					font[glyph].addReference("dot", (1, 0, 0, 1, (i + 1) * DOT_SIZE // 2, (j - DESCENT_DOTS) * DOT_SIZE))
+					font[glyph].addReference("dot", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+					font[glyph].addReference("dot", (1, 0, 0, 1, (i + 1) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 
 	font.save(EXTENDED_TEMP)
 
