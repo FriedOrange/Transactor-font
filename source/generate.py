@@ -212,6 +212,7 @@ def make_bold(source):
 			font[glyph].right_side_bearing = LEFT_SIDE_BEARING - 1
 
 	font.weight = "Bold"
+	font.os2_weight = 700
 	font.save(BOLD_TEMP)
 
 def make_extended(source):
@@ -245,6 +246,7 @@ def make_extended(source):
 					font[glyph].addReference("dot", (1, 0, 0, 1, (i + 1) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 
 	font.weight = "Bold"
+	font.os2_weight = 700
 	font.save(EXTENDED_TEMP)
 
 def main():
