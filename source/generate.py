@@ -263,7 +263,7 @@ def main():
 	make_print(BOLD_TEMP)
 	make_raster(BOLD_TEMP)
 	make_screen(BOLD_TEMP)
-	make_video(BOLD_TEMP)
+	# make_video(BOLD_TEMP)
 
 if __name__ == "__main__":
 	main()
