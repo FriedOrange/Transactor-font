@@ -16,6 +16,8 @@ feature kern {
 	pos Y j -100;
 	pos f a -100;
 	pos r a -100;
+	pos v a -100;
+	pos w a -100;
 
 	pos [F J T] @short_latin -100;
 	pos [F J T] @short_curve_latin -100;
