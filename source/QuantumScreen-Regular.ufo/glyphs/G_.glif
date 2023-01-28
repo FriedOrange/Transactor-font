@@ -46,16 +46,22 @@
       <point x="143.0" y="307.0" type="line" smooth="yes"/>
     </contour>
     <contour>
+      <point x="357.0" y="307.0" type="line" smooth="yes"/>
+      <point x="357.0" y="393.0" type="line" smooth="yes"/>
+      <point x="443.0" y="393.0" type="line" smooth="yes"/>
+      <point x="443.0" y="307.0" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="457.0" y="307.0" type="line" smooth="yes"/>
+      <point x="457.0" y="393.0" type="line" smooth="yes"/>
+      <point x="543.0" y="393.0" type="line" smooth="yes"/>
+      <point x="543.0" y="307.0" type="line" smooth="yes"/>
+    </contour>
+    <contour>
       <point x="57.0" y="207.0" type="line" smooth="yes"/>
       <point x="57.0" y="293.0" type="line" smooth="yes"/>
       <point x="143.0" y="293.0" type="line" smooth="yes"/>
       <point x="143.0" y="207.0" type="line" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="357.0" y="207.0" type="line" smooth="yes"/>
-      <point x="357.0" y="293.0" type="line" smooth="yes"/>
-      <point x="443.0" y="293.0" type="line" smooth="yes"/>
-      <point x="443.0" y="207.0" type="line" smooth="yes"/>
     </contour>
     <contour>
       <point x="457.0" y="207.0" type="line" smooth="yes"/>
