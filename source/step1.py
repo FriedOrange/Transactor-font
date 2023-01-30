@@ -31,9 +31,13 @@ def getPbmInt(pbm_file):
 
 def main():
 
-	advance_width = {"normal": 900, "halfstep": 500, "mono": 600}[sys.argv[1]]
+	advance_width = {"normal": 900, "halfstep": 500, "mono": 600, "video": 900}[sys.argv[1]]
 	halfstep = sys.argv[1] == "halfstep"
 	mono = sys.argv[1] == "mono"
+	video = sys.argv[1] == "video"
+	if video:
+		HEADROOM = 6
+		DOT_SIZE = 50
 	dot_size_horizontal = DOT_SIZE // 2 if halfstep else DOT_SIZE
 
 	# read source image (PBM)
@@ -93,6 +97,9 @@ def main():
 				else:
 					font[name].left_side_bearing = int(font[name].left_side_bearing + SIDE_BEARING)
 					font[name].right_side_bearing = int(font[name].right_side_bearing - SIDE_BEARING)
+
+	if video:
+		font["dot"].glyphname = "halfdot"
 
 	# finished step 1!
 	font.save(sys.argv[4])
