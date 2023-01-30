@@ -4,24 +4,56 @@ languagesystem shaw dflt;
 
 # left side kerning classes
 @nondescending_latin = [A B C D E G H I K L M N O P Q R S U V W X Z a b c d e f h i k l m n o r s t u v w x y z];
+@overhang_right_qs = [unie660 unie661 unie663 unie676 unie67a];
+@curve_bottom_right_qs = [unie656 unie67b];
+@underhang_right_qs = [unie653 unie65f unie672 unie677];
 
 # right side kerning classes
 @short_latin = [d f m n p r t u v w x y z];
 @short_curve_latin = [a c e g o q s];
+@overhang_left_qs = [unie650 unie65e unie677 unie678 unie679];
+@underhang_left_qs = [unie651 unie661 unie663 unie674 unie676];
+@curve_top_left_qs = [unie657 unie665 unie667 unie671];
+@other_vowels_qs = [unie670 unie672 unie673 unie675 unie67a unie67b unie67c unie67d unie67e];
 
 feature kern {
+	# latin single
 	pos F J -200;
 	pos L T -100;
 	pos L Y -100;
 	pos Y j -100;
 	pos f a -100;
 	pos r a -100;
-
+	pos v a -100;
+	pos w a -100;
+	# quikscript single
+	pos unie662 unie677 -100;
+	pos unie662 unie678 -100;
+	pos unie662 unie679 -200;
+	pos unie662 unie671 -200;
+	pos unie65c unie677 -100;
+	pos unie65c unie678 -100; 
+	pos unie65c unie679 -100;
+	pos unie65e unie677 -100;
+	pos unie65e unie678 -100; 
+	pos unie65e unie679 -100;
+	pos unie657 unie671 -100;
+	pos unie657 unie674 -100;
+	pos unie657 unie676 -100;
+	# latin class
 	pos [F J T] @short_latin -100;
 	pos [F J T] @short_curve_latin -100;
 	pos [F J T] j -100;
 	pos @nondescending_latin j -100;
 	pos Y @short_curve_latin -100;
+	# quikscript class
+	pos @overhang_right_qs @underhang_left_qs -100;
+	pos @underhang_right_qs @overhang_left_qs -100;
+	pos @curve_bottom_right_qs @underhang_left_qs -100;
+	pos @overhang_right_qs @curve_top_left_qs -100;
+	pos unie662 @underhang_left_qs -200;
+	pos unie662 @curve_top_left_qs -200;
+	pos unie662 @other_vowels_qs -100;
 } kern;
 
 @GDEF_base = [A B C D E Euro F G H I J K L M N O P Q R S T U V W X Y Z a ampersand asciicircum asciitilde asterisk at b backslash bar braceleft braceright bracketleft bracketright brokenbar bullet c colon comma copyright d dagger daggerdbl degree divide dollar e eight ellipsis emdash endash equal exclam f five four g grave greater guillemotleft guillemotright guilsinglleft guilsinglright h hyphen i j k l less logicalnot m minute mu multiply n nine numbersign o one onehalf onequarter p paragraph parenleft parenright percent period periodcentered plus plusminus q question quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle r s second section semicolon seven six slash space sterling t three threequarters two u u10450 u10451 u10452 u10453 u10454 u10455 u10456 u10457 u10458 u10459 u1045A u1045B u1045C u1045D u1045E u1045F u10460 u10461 u10462 u10463 u10464 u10465 u10466 u10467 u10468 u10469 u1046A u1046B u1046C u1046D u1046E u1046F u10470 u10471 u10472 u10473 u10474 u10475 u10476 u10477 u10478 u10479 u1047A u1047B u1047C u1047D u1047E u1047F underscore uni00A0 unie650 unie651 unie652 unie653 unie654 unie655 unie656 unie657 unie658 unie659 unie65a unie65b unie65c unie65d unie65e unie65f unie660 unie661 unie662 unie663 unie664 unie665 unie666 unie667 unie668 unie669 unie66a unie66b unie66c unie66e unie66f unie670 unie671 unie672 unie673 unie674 unie675 unie676 unie677 unie678 unie679 unie67a unie67b unie67c unie67d unie67e v w x y z zero];
