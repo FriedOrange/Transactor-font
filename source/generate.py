@@ -20,6 +20,7 @@ PRINT_DOT_RADIUS = 48.0
 MAIN_SOURCE = "source\\Quantum-MASTER-main.sfd"
 HALFSTEP_SOURCE = "source\\Quantum-MASTER-halfstep.sfd"
 BOLD_AUX_SOURCE = "source\\Quantum-MASTER-bold-aux.sfd"
+VIDEO_AUX_SOURCE = "source\\Quantum-MASTER-video-aux.sfd"
 BOLD_TEMP = "source\\temp\\temp bold.sfd"
 EXTENDED_TEMP = "source\\temp\\temp extended.sfd"
 UNLINK_LIST = []
@@ -108,6 +109,8 @@ def make_video(source):
 
 	for glyph in font:
 
+		video_aux_font = fontforge.open(VIDEO_AUX_SOURCE)
+
 		# determine where the dots are in each glyph
 		matrix, skip = get_pattern(font, glyph)
 		if skip:
@@ -122,6 +125,12 @@ def make_video(source):
 				if matrix[x][y + 1] and matrix[x + 1][y] and not (matrix[x][y] or matrix[x + 1][y + 1]):
 					font[glyph].addReference("halfdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
 					font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
+
+	for glyph in video_aux_font:
+		video_aux_font.selection.select(glyph)
+		video_aux_font.copy()
+		font.selection.select(glyph)
+		font.paste()
 
 	# interpolation done, now finish it off the same as Regular style
 	font["dot"].unlinkThisGlyph()

@@ -31,12 +31,15 @@ def getPbmInt(pbm_file):
 
 def main():
 
+	global HEADROOM
+	global DOT_SIZE
+
 	advance_width = {"normal": 900, "halfstep": 500, "mono": 600, "video": 900}[sys.argv[1]]
 	halfstep = sys.argv[1] == "halfstep"
 	mono = sys.argv[1] == "mono"
 	video = sys.argv[1] == "video"
 	if video:
-		HEADROOM = 6
+		HEADROOM = 5
 		DOT_SIZE = 50
 	dot_size_horizontal = DOT_SIZE // 2 if halfstep else DOT_SIZE
 
