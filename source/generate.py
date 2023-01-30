@@ -220,6 +220,9 @@ def make_extended(source):
 
 	for glyph in font:
 
+		width = font[glyph].width
+		font[glyph].width = width * 2
+
 		# determine where the dots are in each glyph
 		matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH*2)] # full dots
 		skip = False
@@ -235,9 +238,7 @@ def make_extended(source):
 		if skip or not font[glyph].references:
 			continue
 
-		width = font[glyph].width
-		font[glyph].clear()
-		font[glyph].width = width * 2
+		font[glyph].references = ()
 
 		for j in range(GLYPH_HEIGHT):
 			for i in range(GLYPH_WIDTH * 2):
