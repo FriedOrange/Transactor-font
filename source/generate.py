@@ -19,6 +19,7 @@ SCREEN_DOT_FACTOR = 0.86
 PRINT_DOT_RADIUS = 48.0
 MAIN_SOURCE = "source\\Quantum-MASTER-main.sfd"
 HALFSTEP_SOURCE = "source\\Quantum-MASTER-halfstep.sfd"
+BOLD_AUX_SOURCE = "source\\Quantum-MASTER-bold-aux.sfd"
 BOLD_TEMP = "source\\temp\\temp bold.sfd"
 EXTENDED_TEMP = "source\\temp\\temp extended.sfd"
 UNLINK_LIST = []
@@ -195,6 +196,7 @@ def make_raster(source):
 
 def make_bold(source):
 	font = fontforge.open(source)
+	bold_aux_font = fontforge.open(BOLD_AUX_SOURCE)
 
 	for glyph in font:
 	
@@ -210,6 +212,12 @@ def make_bold(source):
 
 		if font[glyph].right_side_bearing <= 0:
 			font[glyph].right_side_bearing = LEFT_SIDE_BEARING - 1
+
+	for glyph in bold_aux_font:
+		bold_aux_font.selection.select(glyph)
+		bold_aux_font.copy()
+		font.selection.select(glyph)
+		font.paste()
 
 	font.weight = "Bold"
 	font.os2_weight = 700

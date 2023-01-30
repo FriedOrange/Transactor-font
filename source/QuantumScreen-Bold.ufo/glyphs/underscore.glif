@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="underscore" format="2">
-  <advance width="800"/>
+  <advance width="700"/>
   <unicode hex="005F"/>
   <outline>
     <contour>
@@ -40,10 +40,10 @@
       <point x="593.0" y="-93.0" type="line" smooth="yes"/>
     </contour>
     <contour>
-      <point x="657.0" y="-93.0" type="line" smooth="yes"/>
-      <point x="657.0" y="-7.0" type="line" smooth="yes"/>
-      <point x="743.0" y="-7.0" type="line" smooth="yes"/>
-      <point x="743.0" y="-93.0" type="line" smooth="yes"/>
+      <point x="607.0" y="-93.0" type="line" smooth="yes"/>
+      <point x="607.0" y="-7.0" type="line" smooth="yes"/>
+      <point x="693.0" y="-7.0" type="line" smooth="yes"/>
+      <point x="693.0" y="-93.0" type="line" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

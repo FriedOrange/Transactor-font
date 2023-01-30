@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675076712
-ModificationTime: 1675076728
+ModificationTime: 1675077388
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,7 +42,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 16 14
+WinInfo: 58896 16 14
 BeginChars: 1114114 32
 
 StartChar: dot
@@ -662,39 +662,8 @@ Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: unie61
-Encoding: 1114113 -1 20
-Width: 600
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Fore
-Refer: 0 -1 N 1 0 0 1 450 -200 2
-Refer: 0 -1 N 1 0 0 1 350 -200 2
-Refer: 0 -1 N 1 0 0 1 250 -200 2
-Refer: 0 -1 N 1 0 0 1 150 -200 2
-Refer: 0 -1 N 1 0 0 1 450 -100 2
-Refer: 0 -1 N 1 0 0 1 350 -100 2
-Refer: 0 -1 N 1 0 0 1 150 -100 2
-Refer: 0 -1 N 1 0 0 1 50 -100 2
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 450 100 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 450 400 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
-EndChar
-
 StartChar: unie65d
-Encoding: 58973 58973 21
+Encoding: 58973 58973 20
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -724,7 +693,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: unie660
-Encoding: 58976 58976 22
+Encoding: 58976 58976 21
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -753,7 +722,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
 StartChar: unie666
-Encoding: 58982 58982 23
+Encoding: 58982 58982 22
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -779,7 +748,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: unie669
-Encoding: 58985 58985 24
+Encoding: 58985 58985 23
 Width: 900
 Flags: HW
 LayerCount: 2
@@ -821,7 +790,7 @@ Refer: 0 -1 N 1 0 0 1 350 600 2
 EndChar
 
 StartChar: unie673
-Encoding: 58995 58995 25
+Encoding: 58995 58995 24
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -842,7 +811,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: unie675
-Encoding: 58997 58997 26
+Encoding: 58997 58997 25
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -863,7 +832,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: unie679
-Encoding: 59001 59001 27
+Encoding: 59001 59001 26
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -883,7 +852,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: unie67b
-Encoding: 59003 59003 28
+Encoding: 59003 59003 27
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -903,7 +872,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: u10470
-Encoding: 66672 66672 29
+Encoding: 66672 66672 28
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -925,7 +894,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: u1047D
-Encoding: 66685 66685 30
+Encoding: 66685 66685 29
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -957,7 +926,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: u1047E
-Encoding: 66686 66686 31
+Encoding: 66686 66686 30
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -977,6 +946,36 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: unie651
+Encoding: 58961 58961 31
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 450 -200 2
+Refer: 0 -1 N 1 0 0 1 350 -200 2
+Refer: 0 -1 N 1 0 0 1 250 -200 2
+Refer: 0 -1 N 1 0 0 1 150 -200 2
+Refer: 0 -1 N 1 0 0 1 450 -100 2
+Refer: 0 -1 N 1 0 0 1 350 -100 2
+Refer: 0 -1 N 1 0 0 1 150 -100 2
+Refer: 0 -1 N 1 0 0 1 50 -100 2
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 250 100 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
 EndChar
 EndChars
 EndSplineFont
