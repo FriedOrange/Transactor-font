@@ -7,6 +7,12 @@ languagesystem shaw dflt;
 @overhang_right_qs = [unie660 unie661 unie663 unie676 unie67a]; # yoyo winwin whitewheat ah ado
 @curve_bottom_right_qs = [unie656 unie67b]; # thoth out
 @underhang_right_qs = [unie653 unie65f unie672 unie677]; # deed judge ed awl
+@underhang_right_shaw = [u1045B u10467]; # dead egg
+@overhang_right_shaw = [u1045D u10469 u1047E]; # vow ado ian
+@little_overhang_right_shaw = [u10462 u10465 u1046B u10473]; # woe mime wool up
+@little_underhang_right_shaw = [u10461 u1046F u10458 u10475 u1047F]; # judge nun yea ooze yew
+@other_short_ls_shaw = [u10464 u10466 u10468 u1046A u1046C u1046D u1046E u10470 u10471 u10472 u10474 u10477 u10478 u10479 u1047A u1047B u1047C u1047D]; # loll if ash on out ah roar eat age ice oak awe are or air err array ear
+@other_deep_shaw = [u1045C u1045E u1045F u10460 u10461 u10463]; # gag they zoo measure judge haha
 
 # right side kerning classes
 @short_latin = [d f m n p r t u v w x y z];
