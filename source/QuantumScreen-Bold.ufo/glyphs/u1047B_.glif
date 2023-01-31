@@ -28,12 +28,6 @@
       <point x="643.0" y="307.0" type="line" smooth="yes"/>
     </contour>
     <contour>
-      <point x="57.0" y="207.0" type="line" smooth="yes"/>
-      <point x="57.0" y="293.0" type="line" smooth="yes"/>
-      <point x="143.0" y="293.0" type="line" smooth="yes"/>
-      <point x="143.0" y="207.0" type="line" smooth="yes"/>
-    </contour>
-    <contour>
       <point x="157.0" y="207.0" type="line" smooth="yes"/>
       <point x="157.0" y="293.0" type="line" smooth="yes"/>
       <point x="243.0" y="293.0" type="line" smooth="yes"/>
