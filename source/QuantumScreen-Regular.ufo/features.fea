@@ -62,6 +62,9 @@ feature kern {
 	pos u10476 u10450 -200; # oil peep
 	pos u10476 u10451 -100; # oil tot
 	pos u10455 u10451 -100; # so tot
+	pos u1045B u1047B -100; # dead air
+	pos u10467 u10460 -100; # egg measure
+	pos u10467 u10461 -100; # egg judge
 	# latin class
 	pos [F J T] @short_latin -100;
 	pos [F J T] @short_curve_latin -100;
@@ -88,12 +91,12 @@ feature kern {
 	pos @underhang_right_shaw u10451 -200; # tot
 	pos @underhang_right_shaw u1046A -200; # on
 	pos @underhang_right_shaw @little_overhang_left_shaw -100;
-	pos @underhang_right_shaw @curve_bottom_left_shaw -100;
 	pos @overhang_right_shaw u10450 -100; # peep
 	pos @overhang_right_shaw @underhang_left_shaw -200;
 	pos @overhang_right_shaw @little_underhang_left_shaw -100;
 	pos @overhang_right_shaw @curve_top_left_shaw -100;
 	pos @little_overhang_right_shaw u10450 -100; # peep
+	pos @little_overhang_right_shaw @underhang_left_shaw -100;
 	pos @little_overhang_right_shaw @little_underhang_left_shaw -100;
 	pos @little_overhang_right_shaw @curve_top_left_shaw -100;
 	pos @little_underhang_right_shaw u10450 -200; # peep
