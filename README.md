@@ -14,7 +14,7 @@ This is a font family for the Quikscript and Shaw (Shavian) alphabets, in the st
 To build the fonts from scratch, using the provided Windows batch files:
 
 1. Run `generate.bat`; this produces the intermediate sources in UFO format
-2. Run `build.bat`; this builds the final OpenType (TTF and WOFF2) fonts and patches in TTX data to some of them
+2. Run `build.bat`; this builds the final OpenType (TTF and WOFF2) fonts
    - If you wish, run `test.bat` to see Font Bakery's test results for the fonts
 
 To easily add or modify glyphs:
