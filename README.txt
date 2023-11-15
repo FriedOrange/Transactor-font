@@ -12,6 +12,8 @@ This is a set of pixelated, retro-style fonts based upon the classic 5×7 dot ma
 
 The fonts are proportionally spaced and kerned (except the Print Mono variant, obviously) in order to maximise the legibility of Quikscript and Shavian text. The Latin lower case was designed to match the appearance of the other two alphabets.
 
+To save the tedium of manually drawing the outlines for these fonts, the master dot-matrix patterns were first drawn as an image in Paint Shop Pro. A Python script automated the processes of producing the bold versions and the Video style, and turning these pixel patterns into font glyphs. This also made it trivial to substitute different dot shapes for the other styles.
+
 There are six variants of Quantum, most with a matching bold style:
 
 - Regular is like most ‘pixel’ fonts that use connected, square dots like the displays of 8-bit home computers and game consoles from the 1980s.
