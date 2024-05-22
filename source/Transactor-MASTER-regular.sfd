@@ -1,0 +1,3663 @@
+SplineFontDB: 3.2
+FontName: Transactor-Regular
+FullName: Transactor
+FamilyName: Transactor
+Weight: Regular
+Copyright: Copyright 2024 Brad Neil
+UComments: "2024-5-22: Created with FontForge (http://fontforge.org)"
+Version: 1.000
+ItalicAngle: 0
+UnderlinePosition: -90
+UnderlineWidth: 80
+Ascent: 700
+Descent: 100
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 667 -1522588270 9201]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1716379359
+ModificationTime: 1716381263
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+OS2TypoAscent: 700
+OS2TypoAOffset: 0
+OS2TypoDescent: -100
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 700
+OS2WinAOffset: 0
+OS2WinDescent: 100
+OS2WinDOffset: 0
+HheadAscent: 700
+HheadAOffset: 0
+HheadDescent: -100
+HheadDOffset: 0
+OS2CapHeight: 700
+OS2XHeight: 500
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
+Encoding: UnicodeFull
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 16 16 10
+BeginPrivate: 0
+EndPrivate
+BeginChars: 1114113 161
+
+StartChar: dot
+Encoding: 1114112 -1 0
+Width: 0
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 0
+ 0 101 l 0
+ 101 101 l 0
+ 101 0 l 0
+ 0 0 l 0
+EndSplineSet
+EndChar
+
+StartChar: space
+Encoding: 32 32 1
+Width: 800
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: exclam
+Encoding: 33 33 2
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: quotedbl
+Encoding: 34 34 3
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: numbersign
+Encoding: 35 35 4
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: dollar
+Encoding: 36 36 5
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: percent
+Encoding: 37 37 6
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+EndChar
+
+StartChar: ampersand
+Encoding: 38 38 7
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: quotesingle
+Encoding: 39 39 8
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+EndChar
+
+StartChar: parenleft
+Encoding: 40 40 9
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+EndChar
+
+StartChar: parenright
+Encoding: 41 41 10
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: asterisk
+Encoding: 42 42 11
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: plus
+Encoding: 43 43 12
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+EndChar
+
+StartChar: comma
+Encoding: 44 44 13
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 14
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+EndChar
+
+StartChar: period
+Encoding: 46 46 15
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+EndChar
+
+StartChar: slash
+Encoding: 47 47 16
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+EndChar
+
+StartChar: zero
+Encoding: 48 48 17
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: one
+Encoding: 49 49 18
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: two
+Encoding: 50 50 19
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: three
+Encoding: 51 51 20
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: four
+Encoding: 52 52 21
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+EndChar
+
+StartChar: five
+Encoding: 53 53 22
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: six
+Encoding: 54 54 23
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: seven
+Encoding: 55 55 24
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: eight
+Encoding: 56 56 25
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: nine
+Encoding: 57 57 26
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: colon
+Encoding: 58 58 27
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+EndChar
+
+StartChar: semicolon
+Encoding: 59 59 28
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+EndChar
+
+StartChar: less
+Encoding: 60 60 29
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: equal
+Encoding: 61 61 30
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: greater
+Encoding: 62 62 31
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: question
+Encoding: 63 63 32
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: at
+Encoding: 64 64 33
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: A
+Encoding: 65 65 34
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: B
+Encoding: 66 66 35
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: C
+Encoding: 67 67 36
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: D
+Encoding: 68 68 37
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: E
+Encoding: 69 69 38
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: F
+Encoding: 70 70 39
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: G
+Encoding: 71 71 40
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: H
+Encoding: 72 72 41
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: I
+Encoding: 73 73 42
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: J
+Encoding: 74 74 43
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: K
+Encoding: 75 75 44
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: L
+Encoding: 76 76 45
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: M
+Encoding: 77 77 46
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: N
+Encoding: 78 78 47
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: O
+Encoding: 79 79 48
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: P
+Encoding: 80 80 49
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: Q
+Encoding: 81 81 50
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: R
+Encoding: 82 82 51
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: S
+Encoding: 83 83 52
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: T
+Encoding: 84 84 53
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: U
+Encoding: 85 85 54
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: V
+Encoding: 86 86 55
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: W
+Encoding: 87 87 56
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: X
+Encoding: 88 88 57
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: Y
+Encoding: 89 89 58
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: Z
+Encoding: 90 90 59
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: bracketleft
+Encoding: 91 91 60
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: backslash
+Encoding: 92 92 61
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+EndChar
+
+StartChar: bracketright
+Encoding: 93 93 62
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: arrowup
+Encoding: 8593 8593 63
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+EndChar
+
+StartChar: arrowleft
+Encoding: 8592 8592 64
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+EndChar
+
+StartChar: a
+Encoding: 97 97 65
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+EndChar
+
+StartChar: b
+Encoding: 98 98 66
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: c
+Encoding: 99 99 67
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+EndChar
+
+StartChar: d
+Encoding: 100 100 68
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+EndChar
+
+StartChar: e
+Encoding: 101 101 69
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+EndChar
+
+StartChar: f
+Encoding: 102 102 70
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: g
+Encoding: 103 103 71
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+EndChar
+
+StartChar: h
+Encoding: 104 104 72
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: i
+Encoding: 105 105 73
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: j
+Encoding: 106 106 74
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+EndChar
+
+StartChar: k
+Encoding: 107 107 75
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: l
+Encoding: 108 108 76
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: m
+Encoding: 109 109 77
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: n
+Encoding: 110 110 78
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: o
+Encoding: 111 111 79
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+EndChar
+
+StartChar: p
+Encoding: 112 112 80
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: q
+Encoding: 113 113 81
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+EndChar
+
+StartChar: r
+Encoding: 114 114 82
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: s
+Encoding: 115 115 83
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+EndChar
+
+StartChar: t
+Encoding: 116 116 84
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: u
+Encoding: 117 117 85
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: v
+Encoding: 118 118 86
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: w
+Encoding: 119 119 87
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: x
+Encoding: 120 120 88
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: y
+Encoding: 121 121 89
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: z
+Encoding: 122 122 90
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+EndChar
+
+StartChar: u1FB99
+Encoding: 129945 129945 91
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: radical
+Encoding: 8730 8730 92
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+EndChar
+
+StartChar: u1FB95
+Encoding: 129941 129941 93
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: u1FB98
+Encoding: 129944 129944 94
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: uni2500
+Encoding: 9472 9472 95
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+EndChar
+
+StartChar: spade
+Encoding: 9824 9824 96
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: u1FB72
+Encoding: 129906 129906 97
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+EndChar
+
+StartChar: u1FB78
+Encoding: 129912 129912 98
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+EndChar
+
+StartChar: u1FB77
+Encoding: 129911 129911 99
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+EndChar
+
+StartChar: u1FB76
+Encoding: 129910 129910 100
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+EndChar
+
+StartChar: u1FB7A
+Encoding: 129914 129914 101
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+EndChar
+
+StartChar: u1FB71
+Encoding: 129905 129905 102
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: u1FB74
+Encoding: 129908 129908 103
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+EndChar
+
+StartChar: uni256E
+Encoding: 9582 9582 104
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+EndChar
+
+StartChar: uni2570
+Encoding: 9584 9584 105
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: uni256F
+Encoding: 9583 9583 106
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: u1FB7C
+Encoding: 129916 129916 107
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: uni2572
+Encoding: 9586 9586 108
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: uni2571
+Encoding: 9585 9585 109
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+EndChar
+
+StartChar: u1FB7D
+Encoding: 129917 129917 110
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: u1FB7E
+Encoding: 129918 129918 111
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: bullet
+Encoding: 8226 8226 112
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+EndChar
+
+StartChar: u1FB7B
+Encoding: 129915 129915 113
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: heart
+Encoding: 9829 9829 114
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
+StartChar: u1FB70
+Encoding: 129904 129904 115
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+EndChar
+
+StartChar: uni256D
+Encoding: 9581 9581 116
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+EndChar
+
+StartChar: uni2573
+Encoding: 9587 9587 117
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: openbullet
+Encoding: 9702 9702 118
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+EndChar
+
+StartChar: club
+Encoding: 9827 9827 119
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: u1FB75
+Encoding: 129909 129909 120
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+EndChar
+
+StartChar: diamond
+Encoding: 9830 9830 121
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: uni253C
+Encoding: 9532 9532 122
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: u1FB8C
+Encoding: 129932 129932 123
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: uni2502
+Encoding: 9474 9474 124
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: pi
+Encoding: 960 960 125
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+EndChar
+
+StartChar: uni25E5
+Encoding: 9701 9701 126
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: lfblock
+Encoding: 9612 9612 127
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: dnblock
+Encoding: 9604 9604 128
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+EndChar
+
+StartChar: uni2594
+Encoding: 9620 9620 129
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: uni2581
+Encoding: 9601 9601 130
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+EndChar
+
+StartChar: uni258F
+Encoding: 9615 9615 131
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: shade
+Encoding: 9618 9618 132
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: uni2595
+Encoding: 9621 9621 133
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+EndChar
+
+StartChar: u1FB8F
+Encoding: 129935 129935 134
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+EndChar
+
+StartChar: uni25E4
+Encoding: 9700 9700 135
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: u1FB87
+Encoding: 129927 129927 136
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+EndChar
+
+StartChar: uni251C
+Encoding: 9500 9500 137
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: uni2597
+Encoding: 9623 9623 138
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+EndChar
+
+StartChar: uni2514
+Encoding: 9492 9492 139
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: uni2510
+Encoding: 9488 9488 140
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+EndChar
+
+StartChar: uni2582
+Encoding: 9602 9602 141
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni250C
+Encoding: 9484 9484 142
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+EndChar
+
+StartChar: uni2534
+Encoding: 9524 9524 143
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: uni252C
+Encoding: 9516 9516 144
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+EndChar
+
+StartChar: uni2524
+Encoding: 9508 9508 145
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: uni258E
+Encoding: 9614 9614 146
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: uni258D
+Encoding: 9613 9613 147
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: u1FB88
+Encoding: 129928 129928 148
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+EndChar
+
+StartChar: u1FB82
+Encoding: 129922 129922 149
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: u1FB83
+Encoding: 129923 129923 150
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: uni2583
+Encoding: 9603 9603 151
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+EndChar
+
+StartChar: u1FB7F
+Encoding: 129919 129919 152
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+EndChar
+
+StartChar: uni2596
+Encoding: 9622 9622 153
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 -100 2
+Refer: 0 -1 N 1 0 0 1 200 -100 2
+Refer: 0 -1 N 1 0 0 1 100 -100 2
+Refer: 0 -1 N 1 0 0 1 0 -100 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 0 100 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+EndChar
+
+StartChar: uni259D
+Encoding: 9629 9629 154
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 300 2
+Refer: 0 -1 N 1 0 0 1 600 300 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 700 400 2
+Refer: 0 -1 N 1 0 0 1 600 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 700 500 2
+Refer: 0 -1 N 1 0 0 1 600 500 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 600 600 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: uni2518
+Encoding: 9496 9496 155
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 0 200 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+EndChar
+
+StartChar: uni2598
+Encoding: 9624 9624 156
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: uni259A
+Encoding: 9626 9626 157
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 700 -100 2
+Refer: 0 -1 N 1 0 0 1 600 -100 2
+Refer: 0 -1 N 1 0 0 1 500 -100 2
+Refer: 0 -1 N 1 0 0 1 400 -100 2
+Refer: 0 -1 N 1 0 0 1 700 0 2
+Refer: 0 -1 N 1 0 0 1 600 0 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 700 100 2
+Refer: 0 -1 N 1 0 0 1 600 100 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 700 200 2
+Refer: 0 -1 N 1 0 0 1 600 200 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 0 300 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 0 400 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
+EndChar
+
+StartChar: underscore
+Encoding: 95 95 158
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 130 9601 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: u1FB79
+Encoding: 129913 129913 159
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 95 9472 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: u1FB73
+Encoding: 129907 129907 160
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 124 9474 N 1 0 0 1 0 0 2
+EndChar
+EndChars
+EndSplineFont

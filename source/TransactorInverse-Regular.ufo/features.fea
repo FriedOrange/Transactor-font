@@ -1,0 +1,11 @@
+@GDEF_base = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a ampersand arrowleft arrowup asterisk at b backslash bracketleft bracketright bullet c club colon comma d diamond dnblock dollar e eight equal exclam f five four g greater h heart hyphen i j k l less lfblock m n nine numbersign o one openbullet p parenleft parenright percent period pi plus q question quotedbl quotesingle r radical s semicolon seven shade six slash space spade t three two u u1FB70 u1FB71 u1FB72 u1FB73 u1FB74 u1FB75 u1FB76 u1FB77 u1FB78 u1FB79 u1FB7A u1FB7B u1FB7C u1FB7D u1FB7E u1FB7F u1FB82 u1FB83 u1FB87 u1FB88 u1FB8C u1FB8F u1FB95 u1FB98 u1FB99 underscore uni2500 uni2502 uni250C uni2510 uni2514 uni2518 uni251C uni2524 uni252C uni2534 uni253C uni256D uni256E uni256F uni2570 uni2571 uni2572 uni2573 uni2581 uni2582 uni2583 uni258D uni258E uni258F uni2594 uni2595 uni2596 uni2597 uni2598 uni259A uni259D uni25E4 uni25E5 v w x y z zero];
+@GDEF_mark = [];
+@GDEF_ligature = [];
+@GDEF_component = [];
+
+            table GDEF {
+            GlyphClassDef @GDEF_base,
+                          @GDEF_ligature,
+                          @GDEF_mark,
+                          @GDEF_component;
+} GDEF;

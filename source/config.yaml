@@ -1,16 +1,7 @@
 sources:
-  - Quantum-Regular.ufo
-  - QuantumPrint-Regular.ufo
-  - QuantumRaster-Regular.ufo
-  - QuantumScreen-Regular.ufo
-  - QuantumVideo-Regular.ufo
-  - QuantumPrintMono-Regular.ufo
-  - Quantum-Bold.ufo
-  - QuantumPrint-Bold.ufo
-  - QuantumRaster-Bold.ufo
-  - QuantumScreen-Bold.ufo
-  - QuantumPrintMono-Bold.ufo
-familyName: "Quantum"
+  - Transactor-Regular.ufo
+  - TransactorInverse-Regular.ufo
+familyName: "Transactor"
 buildOTF: false
 buildVariable: false
 autohintTTF: false

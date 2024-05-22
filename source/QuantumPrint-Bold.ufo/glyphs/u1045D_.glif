@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="u1045D" format="2">
-  <advance width="500"/>
-  <unicode hex="1045D"/>
-  <outline>
-    <component base="unie662" yOffset="-200.0"/>
-  </outline>
-</glyph>

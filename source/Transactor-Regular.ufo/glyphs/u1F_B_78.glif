@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u1FB78" format="2">
+  <advance width="800"/>
+  <unicode hex="1FB78"/>
+  <outline>
+    <contour>
+      <point x="-15.0" y="350.0" type="curve" smooth="yes"/>
+      <point x="-15.0" y="372.0"/>
+      <point x="3.0" y="390.0"/>
+      <point x="25.0" y="390.0" type="curve" smooth="yes"/>
+      <point x="775.0" y="390.0" type="line" smooth="yes"/>
+      <point x="797.0" y="390.0"/>
+      <point x="815.0" y="372.0"/>
+      <point x="815.0" y="350.0" type="curve" smooth="yes"/>
+      <point x="815.0" y="328.0"/>
+      <point x="797.0" y="310.0"/>
+      <point x="775.0" y="310.0" type="curve" smooth="yes"/>
+      <point x="25.0" y="310.0" type="line" smooth="yes"/>
+      <point x="3.0" y="310.0"/>
+      <point x="-15.0" y="328.0"/>
+    </contour>
+  </outline>
+</glyph>

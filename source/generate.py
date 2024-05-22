@@ -12,12 +12,13 @@ import fontforge
 
 DOT_SIZE = 100
 GLYPH_WIDTH = 8
-GLYPH_HEIGHT = 12
-DESCENT_DOTS = 2
-LEFT_SIDE_BEARING = 50
+GLYPH_HEIGHT = 8
+DESCENT_DOTS = 1
+LEFT_SIDE_BEARING = 0
 SCREEN_DOT_FACTOR = 0.86
 PRINT_DOT_RADIUS = 48.0
-MAIN_SOURCE = "source\\Quantum-MASTER-main.sfd"
+MAIN_SOURCE = "source\\Transactor-MASTER-regular.sfd"
+INVERSE_SOURCE = "source\\Transactor-MASTER-inverse.sfd"
 HALFSTEP_SOURCE = "source\\Quantum-MASTER-halfstep.sfd"
 BOLD_AUX_SOURCE = "source\\Quantum-MASTER-bold-aux.sfd"
 VIDEO_AUX_SOURCE = "source\\Quantum-MASTER-video-aux.sfd"
@@ -197,11 +198,14 @@ def make_raster(source):
 	font.selection.all()
 	font.removeOverlap()
 	font.simplify()
-	add_names(font, "Raster")
+	# add_names(font, "Raster")
 	font.uwidth = 80
 	font.os2_strikeysize = 80
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-	font.save(f"source\\temp\\QuantumRaster-{font.weight}.sfd")
+	if source == MAIN_SOURCE:
+		font.save(f"source\\temp\\Transactor-{font.weight}.sfd")
+	else:
+		font.save(f"source\\temp\\TransactorInverse-{font.weight}.sfd")
 
 def make_bold(source):
 	font = fontforge.open(source)
@@ -268,19 +272,20 @@ def make_extended(source):
 	font.save(EXTENDED_TEMP)
 
 def main():
-	make_regular(MAIN_SOURCE)
-	make_print(MAIN_SOURCE)
+	# make_regular(MAIN_SOURCE)
+	# make_print(MAIN_SOURCE)
 	make_raster(MAIN_SOURCE)
-	make_screen(MAIN_SOURCE)
-	make_video(MAIN_SOURCE)
-	make_print(HALFSTEP_SOURCE, "Mono")
-	make_extended(HALFSTEP_SOURCE)
-	make_print(EXTENDED_TEMP, "Mono")
-	make_bold(MAIN_SOURCE)
-	make_regular(BOLD_TEMP)
-	make_print(BOLD_TEMP)
-	make_raster(BOLD_TEMP)
-	make_screen(BOLD_TEMP)
+	make_raster(INVERSE_SOURCE)
+	# make_screen(MAIN_SOURCE)
+	# make_video(MAIN_SOURCE)
+	# make_print(HALFSTEP_SOURCE, "Mono")
+	# make_extended(HALFSTEP_SOURCE)
+	# make_print(EXTENDED_TEMP, "Mono")
+	# make_bold(MAIN_SOURCE)
+	# make_regular(BOLD_TEMP)
+	# make_print(BOLD_TEMP)
+	# make_raster(BOLD_TEMP)
+	# make_screen(BOLD_TEMP)
 	# make_video(BOLD_TEMP)
 
 if __name__ == "__main__":

@@ -11,10 +11,10 @@
 import sys
 import fontforge
 
-EM_SIZE = 1000
-HEADROOM = 3 # no. of dots above cap height in source image
+EM_SIZE = 800
+HEADROOM = 2 # no. of dots above cap height in source image
 DOT_SIZE = 100
-SIDE_BEARING = int(DOT_SIZE / 2)
+SIDE_BEARING = 0
 
 def getPbmInt(pbm_file):
 	result = ""
@@ -34,7 +34,7 @@ def main():
 	global HEADROOM
 	global DOT_SIZE
 
-	advance_width = {"normal": 900, "halfstep": 500, "mono": 600, "video": 900}[sys.argv[1]]
+	advance_width = {"normal": 800, "halfstep": 500, "mono": 600, "video": 900}[sys.argv[1]]
 	halfstep = sys.argv[1] == "halfstep"
 	mono = sys.argv[1] == "mono"
 	video = sys.argv[1] == "video"
@@ -94,12 +94,12 @@ def main():
 						if source_image[j*glyph_height + y][i*glyph_width + x]:
 							font[name].addReference("dot", (1, 0, 0, 1, x * dot_size_horizontal, (glyph_height - y - HEADROOM) * DOT_SIZE))
 
-				if not halfstep and not mono:
-					font[name].left_side_bearing = SIDE_BEARING
-					font[name].right_side_bearing = SIDE_BEARING - 1
-				else:
-					font[name].left_side_bearing = int(font[name].left_side_bearing + SIDE_BEARING)
-					font[name].right_side_bearing = int(font[name].right_side_bearing - SIDE_BEARING)
+				# if not halfstep and not mono:
+				# 	font[name].left_side_bearing = SIDE_BEARING
+				# 	font[name].right_side_bearing = SIDE_BEARING - 1
+				# else:
+				# 	font[name].left_side_bearing = int(font[name].left_side_bearing + SIDE_BEARING)
+				# 	font[name].right_side_bearing = int(font[name].right_side_bearing - SIDE_BEARING)
 
 	if video:
 		font["dot"].glyphname = "halfdot"
